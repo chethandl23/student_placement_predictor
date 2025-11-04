@@ -12,10 +12,10 @@ __pycache__/
 .vscode/
 
 # --- Machine Learning Artifacts (Crucial for your project) ---
-# Ignore all large model files and processed data
+# Ignore only model pickle files (so model code and other artifacts are tracked)
+# Ignore any .pkl files directly under backend/models or in its subfolders
 /backend/models/*.pkl
-/backend/models/*.csv
-/backend/models/
+/backend/models/**/*.pkl
 
 # --- Flask/Web Temporary Files ---
 # Flask/Streamlit specific files
