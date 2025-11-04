@@ -1,0 +1,12 @@
+requests
+pandas
+numpy
+python-dotenv
+streamlit
+groq
+openai
+fuzzywuzzy
+numpy
+scikit-learn
+category-encoders
+joblib
